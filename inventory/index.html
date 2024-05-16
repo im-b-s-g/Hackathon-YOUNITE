@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drug Inventory Forecasting</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+    </style>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="initializeModel()">
+    <div class="container">
+      <h1>Drug Inventory Forecasting</h1>
+
+      <br />
+      <table id="drugTable">
+        <thead>
+          <tr>
+            <th>Drug Name</th>
+            <th>Drug Type</th>
+            <th>Current Inventory</th>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+            <th>April</th>
+            <th>May</th>
+            <th>June</th>
+            <th>July</th>
+            <th>August</th>
+            <th>September</th>
+            <th>October</th>
+            <th>November</th>
+            <th>December</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button class="btn">Forcast</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
